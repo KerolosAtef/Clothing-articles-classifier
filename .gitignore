@@ -1,0 +1,21 @@
+### Linux ###
+*~
+
+# user experiments directory
+images_compressed
+# do not ignore datasets under yolox/data
+repo_images
+test_data
+test_data_unbalanced
+train_data
+*.h5
+*.json
+*.csv
+*.zip
+
+*.tflite
+### PyCharm ###
+# User-specific stuff
+.idea
+*.iml
+
