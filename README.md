@@ -60,7 +60,7 @@ This is the confusion matrix to see the model performance for each class.
 ## Calculating FLOPS and MACCs per layer 
 ## Baseline model FLOPs and MACCs
 
-### EfficheintnetB0 model
+
 |     Layer Name |      Input Shape |     Output Shape |      Kernel Size |          Filters | Strides |           FLOPS |            MACC |
 |---------------:|-----------------:|-----------------:|-----------------:|-----------------:|--------:|----------------:|----------------:|
 |          conv2d |  [224, 224, 3]  | [222, 222, 128]  |          (3, 3)  |             128  |   (1, 1) |       346816512 |       173408256 |
@@ -69,6 +69,7 @@ This is the confusion matrix to see the model performance for each class.
 |          flatten|          43,264 |             [64] |          [0, 0]  |          [0, 0]  |   [1, 1] |         5537792 |         2768896 |
 |            dense|              64 |             [17] |          [0, 0]  |          [0, 0]  |   [1, 1] |            2176 |            1088 |
 
+### EfficheintnetB0 model FLOPs and MACCs
 |   Layer Name       | Input Shape    | Output Shape   | Kernel Size | Filters | Strides |      FLOPS     |     MACC      |
 |-------------------|---------------|---------------|-------------|---------|---------|----------------|---------------|
 | stem_conv |    [224, 224, 3] |   [112, 112, 32] |           (3, 3) |               32 | (2, 2) | 21676032.00   | 10838016.00 |
