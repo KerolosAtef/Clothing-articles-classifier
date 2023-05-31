@@ -56,7 +56,9 @@ We evaluated the model with the test dataset and it achieved 0.92 accuracy.<br>
 This is the confusion matrix to see the model performance for each class.
 ![classification_matrix_efficientnet.png](repo_images%2Fclassification_matrix_efficientnet.png)<br>
 **We can notice that the model is performing well for all classes.**
-
+## Grad-CAM visualization of the Last Receptive Field of the model
+![Receptive_fileds_vis.png](repo_images%2FReceptive_fileds_vis.png)<br>
+## Using this visualization we can see that the model is focusing on the correct region of the image to make the prediction of the class.
 ## Calculating FLOPS and MACCs per layer 
 ## Baseline model FLOPs and MACCs
 
